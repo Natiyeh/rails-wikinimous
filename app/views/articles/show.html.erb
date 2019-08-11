@@ -1,0 +1,5 @@
+<h1>show</h1>
+<h3><%= @article.title %></h3>
+<h5><%= @article.content %></h5>
+<%= link_to 'edit', edit_article_path(@article) %>
+<%= link_to 'back to index', articles_path %>
